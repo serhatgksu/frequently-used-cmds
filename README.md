@@ -17,3 +17,11 @@
   filtering tasks named "chrome"
   
     tasklist | find "chrome"
+    
+  recursive content search 
+    
+    for /r %a in (\*.*) do find "search_text" %a
+    for /f %G in ('dir *.cpp *.h /s/b') do  ( find /i "what you search"  "%G") >> out_file.txt
+    findstr /spin /c:"string" [files]
+
+  
