@@ -47,3 +47,11 @@
   Copy a folder including all subfolders.
 
     XCOPY C:\utils\* D:\Backup\utils /s /i
+    
+### Loop
+
+   Loop through several strings
+   
+    FOR %G IN (extract split fillin merge) DO python %G.py
+    
+  
