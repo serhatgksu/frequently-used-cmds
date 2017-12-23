@@ -23,5 +23,14 @@
     for /r %a in (\*.*) do find "search_text" %a
     for /f %G in ('dir *.cpp *.h /s/b') do  ( find /i "what you search"  "%G") >> out_file.txt
     findstr /spin /c:"string" [files]
+    
+### Clean
 
+  remove files with extension named 'pyd'
+  
+    del /Q /S *.pyd
+
+  remove dir called 'dist' and delete all files in it
+  
+    rmdir /Q /S dist
   
