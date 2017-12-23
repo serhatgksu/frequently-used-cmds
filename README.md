@@ -33,4 +33,10 @@
   remove dir called 'dist' and delete all files in it
   
     rmdir /Q /S dist
+
+### Copy
+
+  copy folder path1 to path2
+  
+    xcopy path1 path2
   
