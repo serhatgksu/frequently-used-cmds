@@ -33,10 +33,17 @@
   remove dir called 'dist' and delete all files in it
   
     rmdir /Q /S dist
-
+    
 ### Copy
 
-  copy folder path1 to path2
- 
-    xcopy path1 path2
-  
+  Copy a file:
+
+    echo F| XCOPY C:\utils\MyFile.txt D:\Backup\CopyFile.txt
+
+  Copy a folder:
+
+    XCOPY C:\utils D:\Backup\utils /i
+
+  Copy a folder including all subfolders.
+
+    XCOPY C:\utils\* D:\Backup\utils /s /i
