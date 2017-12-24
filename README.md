@@ -64,7 +64,13 @@
   
 ### Comment
 
-   REM
+   Single-Line Comment
     
     rem pyinstaller extract.spec
    
+### Set Variable
+
+   Set
+   
+    set target="split"
+    echo %target%
