@@ -6,6 +6,11 @@
   
     dir | find ".py"
   
+  file with specific extension or name
+  
+    dir /b/s *.txt
+    dir /b/s *idf*
+    
   check if a folder named "tmp" exists
   
     dir tmp /AD /s
