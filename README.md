@@ -79,4 +79,5 @@
    Environment Variable
     
     for %G in ("%path:;=" "%") do @echo %G
-    PATH=%PATH%;C:\Program Files\My Application
+    rem PATH=%PATH%;C:\Program Files\My Application
+    rem path=%path%;C:\Program Files\My Application
