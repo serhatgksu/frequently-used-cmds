@@ -84,5 +84,5 @@
     runas /profile /user:Frank "cmd.exe"
     rem setx pythonpath "C:\Users\Peter\AppData\Local\Programs\Python\Python36" -m
     rem PATH=%PATH%;%pythonpath%
-    setx path %path%";C:\Users\Peter\AppData\Local\Programs\Python\Python36" -m
+    setx path "%path%"";C:\Users\Peter\AppData\Local\Programs\Python\Python36" -m
     
