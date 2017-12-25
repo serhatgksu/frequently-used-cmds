@@ -70,7 +70,13 @@
    
 ### Set Variable
 
-   Set
+   General
    
-    set target="split"
+    rem set target="split"
+    set "target=split"
     echo %target%
+    
+   Environment Variable
+    
+    for %G in ("%path:;=" "%") do @echo %G
+    PATH=%PATH%;C:\Program Files\My Application
