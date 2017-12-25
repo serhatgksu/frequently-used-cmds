@@ -81,3 +81,7 @@
     for %G in ("%path:;=" "%") do @echo %G
     rem PATH=%PATH%;C:\Program Files\My Application
     rem path=%path%;C:\Program Files\My Application
+    runas /profile /user:Frank "cmd.exe"
+    setx pythonpath "C:\Users\Peter\AppData\Local\Programs\Python\Python36" -m
+    PATH=%PATH%;%pythonpath%
+    
