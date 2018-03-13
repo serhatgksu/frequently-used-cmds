@@ -1,0 +1,3 @@
+### INSTALLATION
+
+    $ dk
