@@ -7,3 +7,5 @@
     $ sudo chown -R `whoami` /usr/local
     
 ### file search
+
+    $ find / -iname "*opencv*"
