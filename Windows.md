@@ -1,4 +1,4 @@
-### Check System Integrity Violations
+### [Side-By-Side Configuration Is Incorrect!](https://www.codeproject.com/Articles/43681/Side-by-Side-Configuration-Incorrect)
 
       $ sfc/scannow
       $ DISM.exe /Online /Cleanup-image /Scanhealth
