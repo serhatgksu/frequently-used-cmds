@@ -1,9 +1,11 @@
 ### [Side-By-Side Configuration Is Incorrect!](https://www.codeproject.com/Articles/43681/Side-by-Side-Configuration-Incorrect)
 
+      SYSTEM INTEGRITY CHECK
       $ sfc/scannow
       $ DISM.exe /Online /Cleanup-image /Scanhealth
       $ DISM.exe /Online /Cleanup-image /Restorehealth
       
+      DIAGNOSE THE ERROR
       For running sxstrace.exe, go to Visual Studio command prompt and type sxstrace.exe. Usage is as follows:
       1.Before running your application, run sxstrace in trace mode
       $ sxstrace.exe Trace -logfile:C:\tmp\MySxSTrace.log
