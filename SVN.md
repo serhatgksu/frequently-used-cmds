@@ -13,3 +13,11 @@
      svn update
      svn add timer.py sql.py
      svn commit -m sql-guide
+     
+### Change User
+
+     svn relocate protocol://currentUser@server/path protocol://newUser@server/path
+     svn commit --username newUser
+     svn co --username newUser
+     svn info
+     
