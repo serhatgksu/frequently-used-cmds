@@ -1,13 +1,15 @@
 
-### [Install SVN](https://tortoisesvn.net/downloads.html)
-   
-     $ sudo apt-get install subversion
+### Install SVN
+
+     sudo apt-get install subversion
      
 ### Create SVN
      https://help.ubuntu.com/community/Subversion
 
 ### CMD
 
-     svn co "type here your checkout URL without double quotes"
+     svn co svn://122.114.59.116/src/py-rpc
      svn status
-     svn commit ...........your file name 
+     svn update
+     svn add timer.py sql.py
+     svn commit -m sql-guide
