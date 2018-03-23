@@ -5,7 +5,7 @@
     ps -ax | grep python
     ps -e | grep ssh
     df
-    du
+    du -hs ~/.ethereum
     
 ### CPU/MEM Check
 
