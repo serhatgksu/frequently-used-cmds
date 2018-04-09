@@ -7,6 +7,10 @@
     df
     du -hs ~/.ethereum
     du -ah /home/ee
+    lsb_release -a
+    find / -iname svn.so
+    systemctl status httpd.service
+    journalctl -xe
     
 ### CPU/MEM Check
 
