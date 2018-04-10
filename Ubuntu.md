@@ -4,7 +4,7 @@
     which python
     ps -ax | grep python
     ps -e | grep ssh
-    df
+    df -h /
     du -hs ~/.ethereum
     du -ah /home/ee
     lsb_release -a
