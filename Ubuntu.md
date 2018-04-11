@@ -12,6 +12,8 @@
     systemctl status httpd.service
     journalctl -xe
     netstat -apn | grep 3690
+    kill -9 10203
+    pkill svnserve
     
 ### CPU/MEM Check
 
