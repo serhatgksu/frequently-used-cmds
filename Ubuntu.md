@@ -14,7 +14,7 @@
     netstat -apn | grep 3690
     kill -9 10203
     pkill svnserve
-    tar -xvfz a.tar.gz
+    tar -xvf a.tar.gz
     tar -cvf sv.tar.gz /home/username/sv
     
 ### CPU/MEM Check
