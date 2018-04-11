@@ -11,6 +11,7 @@
     find / -iname svn.so
     systemctl status httpd.service
     journalctl -xe
+    netstat -apn | grep 3690
     
 ### CPU/MEM Check
 
