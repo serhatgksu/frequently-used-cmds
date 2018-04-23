@@ -17,6 +17,7 @@
     pkill svnserve
     tar -xvf a.tar.gz
     tar -cvf sv.tar.gz /home/username/sv
+    scp -r root@43.224.34.73:/home/lk /root
     
 ### CPU/MEM Check
 
