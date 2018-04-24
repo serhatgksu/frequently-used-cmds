@@ -20,10 +20,13 @@
     scp -r root@43.224.34.73:/home/lk /root
     ssh root@10.88.88.11
     ssh -i "xxx.pem" ubuntu@ec2-52-15-211-203.us-east-2.compute.amazonaws.com
-    sudo apt install glances
-    glances
-    glances
-    lshw
+    
+    checking info
+    $ sudo apt install glances
+    $ glances
+    $ glances
+    $ lshw
+    $ lscpu
     
 ### CPU/MEM Check
 
