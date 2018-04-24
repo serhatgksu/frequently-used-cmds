@@ -13,6 +13,9 @@
     porting
     $ netstat -apn | grep 3690
     $ netstat -plunt
+    $ sudo nmap -PN -p port_number -sN remote_host
+    $ sudo nmap -p port_number remote_host
+    $ sudo nmap -n remote_host
     
     processing
     kill -9 10203
