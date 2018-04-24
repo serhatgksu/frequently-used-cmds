@@ -9,7 +9,10 @@
     
     systemctl status httpd.service
     journalctl -xe
-    netstat -apn | grep 3690
+    
+    porting
+    $ netstat -apn | grep 3690
+    $ netstat -plunt
     
     processing
     kill -9 10203
@@ -38,8 +41,5 @@
     $ du -ah /home/ee
     $ lsb_release -a
     $ lspci
-    
-### CPU/MEM Check
-
-    vmstat
+    $ vmstat
     
