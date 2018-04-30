@@ -28,11 +28,11 @@
     copying
     scp -r root@43.224.34.73:/home/lk /root
     
-    remoting
-    ssh root@10.88.88.11
+    remoting
+    ssh root@10.88.88.11
     ssh -i "xxx.pem" ubuntu@ec2-52-15-211-203.us-east-2.compute.amazonaws.com
     
-    nohup python server.py
+    nohup python server.py &
     
     checking info
     $ sudo apt install glances
