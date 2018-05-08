@@ -26,11 +26,13 @@
     tar -cvf sv.tar.gz /home/username/sv
     
     copying
-    scp -r root@43.224.34.73:/home/lk /root
+    scp -i xxxx.pem ubuntu@x.x.x.x:/home/ubuntu/data/vac/vacd .
+    ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -i xxx.pem -l ubuntu -- x.x.x.x scp -f /home/ubuntu/data/vac/vacd
     
     remoting
-    ssh root@10.88.88.11
-    ssh -i "xxx.pem" ubuntu@ec2-52-15-211-203.us-east-2.compute.amazonaws.com
+    ssh root@x.x.x.x
+    ssh -i "xxx.pem" ubuntu@ec2-x-x-x-x.us-east-2.compute.amazonaws.com
+    scp -i vachain_for_test.pem ubuntu@x.x.x.x:/home/ubuntu/data/vac/vacd .
     
     nohup python server.py &
     
