@@ -42,8 +42,8 @@
     nohup python server.py > ./log.out 2>&1 &
     nohup geth console > /dev/null 2>&1 &
     
-    account
-    sudo adduser username
+    account
+    sudo adduser username
     sudo passwd username
     
     checking info
