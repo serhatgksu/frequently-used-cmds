@@ -5,7 +5,12 @@
     which python
     ps -ax | grep python
     ps -e | grep ssh
+    
+    searching
     find / -iname svn.so
+    
+    content searching
+    cat filename | grep keyword
     
     systemctl status httpd.service
     journalctl -xe
