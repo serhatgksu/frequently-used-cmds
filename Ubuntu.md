@@ -34,6 +34,8 @@
     ssh -i "xxx.pem" ubuntu@ec2-x-x-x-x.us-east-2.compute.amazonaws.com
     scp -i vachain_for_test.pem ubuntu@x.x.x.x:/home/ubuntu/data/vac/vacd .
     
+    techniques
+    meld&
     nohup python server.py &
     
     checking info
