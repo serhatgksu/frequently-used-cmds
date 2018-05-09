@@ -44,7 +44,7 @@
     
     account
     sudo adduser username
-    sudo password username
+    sudo passwd username
     
     checking info
     $ sudo apt install glances
