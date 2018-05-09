@@ -44,6 +44,7 @@
     meld&
     
     permanent running
+    nohup spyder
     nohup python server.py &
     nohup python server.py > ./log.out 2>&1 &
     nohup geth console > /dev/null 2>&1 &
