@@ -39,6 +39,7 @@
     
     permanent running
     nohup python server.py &
+    nohup python server.py > ./log.out 2>&1 &
     nohup geth console > /dev/null 2>&1 &
     
     checking info
