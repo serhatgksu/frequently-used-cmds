@@ -29,6 +29,7 @@
     compressing
     tar -xvf a.tar.gz
     tar -cvf sv.tar.gz /home/username/sv
+    unzip
     
     copying
     scp -i xxxx.pem ubuntu@x.x.x.x:/home/ubuntu/data/vac/vacd .
@@ -50,6 +51,12 @@
     account
     sudo adduser username
     sudo passwd username
+    
+    environment variable
+    alias surf='find / -name'
+    export name=smith
+    $ vim ~/.bashrc
+    $ source ~/.bashrc
     
     checking info
     $ sudo apt install glances
