@@ -32,8 +32,8 @@
     unzip
     
     copying
-    scp -i xxxx.pem ubuntu@x.x.x.x:/home/ubuntu/data/vac/vacd .
-    ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -i xxx.pem -l ubuntu -- x.x.x.x scp -f /home/ubuntu/data/vac/vacd
+    chmod 400 x.x.x.x.pem
+    scp -i x.x.x.x.pem ./interface/rpc.tar.gz ubuntu@ec2-x-x-x-x.ap-northeast-2.compute.amazonaws.com:~/
     
     remoting
     ssh root@x.x.x.x
