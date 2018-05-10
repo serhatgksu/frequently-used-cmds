@@ -60,6 +60,9 @@
     $ vim ~/.bashrc
     $ source ~/.bashrc
     
+    removing file/dir
+    rm -rf dirpath
+    
     checking info
     $ sudo apt install glances
     $ glances
