@@ -34,6 +34,7 @@
     copying
     chmod 400 x.x.x.x.pem
     scp -i x.x.x.x.pem ./interface/rpc.tar.gz ubuntu@ec2-x-x-x-x.ap-northeast-2.compute.amazonaws.com:~/
+    scp -i x.x.x.x.pem -r ./interface/rpc ubuntu@ec2-x-x-x-x.ap-northeast-2.compute.amazonaws.com:~/
     
     remoting
     ssh root@x.x.x.x
