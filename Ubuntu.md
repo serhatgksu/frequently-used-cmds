@@ -70,6 +70,7 @@
     $ lscpu
     $ lsblk
     $ df -h /
+    $ df -BG
     $ du -hs ~/.ethereum
     $ du -ah /home/ee
     $ lsb_release -a
