@@ -18,4 +18,9 @@
 
       $ time
       $ date
-      $
+      
+      nohup
+      $ start /min java -jar spider.jar
+      
+      man
+      $ start /?
