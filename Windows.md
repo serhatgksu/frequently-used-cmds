@@ -14,4 +14,8 @@
       $ sxstrace.exe Parse -logfile:C:\MySxSTrace.log -outfile:C:\MySxSTrace.txt
       4.Open output file from C:\MySxSTrace.txt
 
-### dd
+### Frequently Used
+
+      $ time
+      $ date
+      $
