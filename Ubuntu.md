@@ -65,6 +65,9 @@
     replace
     grep -rl matchstring somedir/ | xargs sed -i 's/searched_text/replacement_text/g'
     find . -name "*.txt" |xargs sed -i "s/searched_text/replacement_text/g"
+    find . -name "ltc_timer.py" | xargs sed -i 's/DGC_/LTC_/g'
+    find . -name "ltc_timer.py" | xargs sed -i 's/dgc_/ltc_/g'
+    cat $(find . -name "ltc_timer.py")
     
     checking info
     $ sudo apt install glances
