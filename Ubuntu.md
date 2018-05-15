@@ -62,6 +62,10 @@
     removing file/dir
     rm -rf dirpath
     
+    replace
+    grep -rl matchstring somedir/ | xargs sed -i 's/searched_text/replacement_text/g'
+    find . -name "*.txt" |xargs sed -i "s/searched_text/replacement_text/g"
+    
     checking info
     $ sudo apt install glances
     $ glances
