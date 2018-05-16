@@ -69,6 +69,9 @@
     find . -name "ltc_timer.py" | xargs sed -i 's/dgc_/ltc_/g'
     cat $(find . -name "ltc_timer.py")
     
+    edit
+    vim $(find . -name "ltc_timer.py")
+    
     checking info
     $ sudo apt install glances
     $ glances
