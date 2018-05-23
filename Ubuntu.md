@@ -61,6 +61,8 @@
     
     removing file/dir
     rm -rf dirpath
+    find . -name *.pyc -exec rm -f {} \;
+    find . -name find-to-pattern -exec rm -rf {} \;
     
     replace
     grep -rl matchstring somedir/ | xargs sed -i 's/searched_text/replacement_text/g'
