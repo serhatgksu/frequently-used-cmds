@@ -65,12 +65,15 @@
     find . -name find-to-pattern -exec rm -rf {} \;
     
     replace
+    sed 's/book/books/g' file
     grep -rl matchstring somedir/ | xargs sed -i 's/searched_text/replacement_text/g'
     find . -name "*.txt" |xargs sed -i "s/searched_text/replacement_text/g"
     find . -name "ltc_timer.py" | xargs sed -i 's/DGC_/LTC_/g'
     find . -name "ltc_timer.py" | xargs sed -i 's/dgc_/ltc_/g'
-    cat $(find . -name "ltc_timer.py")
     
+    print
+    cat $(find . -name "ltc_timer.py")
+        
     edit
     vim $(find . -name "ltc_timer.py")
     
