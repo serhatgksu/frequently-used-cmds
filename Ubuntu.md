@@ -5,6 +5,7 @@
     which python
     ps -ax | grep python
     ps -e | grep ssh
+    ps -ef | pgrep python
     
     searching
     find / -iname svn.so
@@ -76,6 +77,9 @@
         
     edit
     vim $(find . -name "ltc_timer.py")
+    
+    move/rename
+    mv rpc rpc_new
     
     checking info
     $ sudo apt install glances
