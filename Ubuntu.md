@@ -80,6 +80,7 @@
     
     move/rename
     mv rpc rpc_new
+    rename "s/btc/bch/g"
     
     checking info
     $ sudo apt install glances
