@@ -12,6 +12,7 @@
     
     content searching
     cat filename | grep keyword
+    find . -name "*.py" | xargs cat | grep keyword
     
     systemctl status httpd.service
     journalctl -xe
