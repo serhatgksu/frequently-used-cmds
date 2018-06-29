@@ -99,3 +99,8 @@
     $ lspci
     $ vmstat
     
+    chk&mount disk
+    $ sudo fdisk -l
+    $ lsblk
+    $ mkdir /mnt/sdb
+    $ sudo mount /dev/sdb5 /mnt/sdb/
