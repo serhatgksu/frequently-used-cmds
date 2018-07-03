@@ -68,7 +68,7 @@
     find . -name find-to-pattern -exec rm -rf {} \;
     
     replace
-    sed 's/book/books/g' file
+    sed -i 's/book/books/g' filename
     grep -rl matchstring somedir/ | xargs sed -i 's/searched_text/replacement_text/g'
     find . -name "*.txt" |xargs sed -i "s/searched_text/replacement_text/g"
     find . -name "ltc_timer.py" | xargs sed -i 's/DGC_/LTC_/g'
@@ -104,3 +104,9 @@
     $ lsblk
     $ mkdir /mnt/sdb
     $ sudo mount /dev/sdb5 /mnt/sdb/
+    
+    time
+    $ date +%s
+    
+    if
+    
