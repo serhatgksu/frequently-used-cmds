@@ -118,3 +118,7 @@
     else
       echo "pro doesn't exist"
     fi
+    
+    alias in shell script
+    shopt -s expand_aliases
+    source ~/.bash_aliases
