@@ -109,4 +109,12 @@
     $ date +%s
     
     if
-    
+    if [ -d "pro/exchange" ]
+    then
+      echo "pro exists"
+      tar cvf pro.tar.gz pro/
+      mv pro.tar.gz tmp/pro_$(date +%s).tar.gz
+      rm -rf pro
+    else
+      echo "pro doesn't exist"
+    fi
