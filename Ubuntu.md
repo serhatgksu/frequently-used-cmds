@@ -105,6 +105,9 @@
     $ mkdir /mnt/sdb
     $ sudo mount /dev/sdb5 /mnt/sdb/
     
+    port
+    ping -p 80 google.com
+
     time
     $ date +%s
     
@@ -122,3 +125,6 @@
     alias in shell script
     shopt -s expand_aliases
     source ~/.bash_aliases
+
+
+
