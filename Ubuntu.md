@@ -126,5 +126,6 @@
     shopt -s expand_aliases
     source ~/.bash_aliases
 
-
+    virtualbox storage expand
+    VBoxManage modifyhd win10.vdi --resize 120000
 
