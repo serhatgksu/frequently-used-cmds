@@ -28,6 +28,7 @@
     processing
     kill -9 10203
     pkill svnserve
+    ps -ef | grep python | awk '{print $2}' | xargs kill -9
     
     compressing
     tar -xvf a.tar.gz
