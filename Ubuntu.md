@@ -65,6 +65,7 @@
     
     removing file/dir
     rm -rf dirpath
+    rm -d dirpath
     find . -name *.pyc -exec rm -f {} \;
     find . -name find-to-pattern -exec rm -rf {} \;
     
@@ -97,6 +98,8 @@
     $ du -hs ~/.ethereum
     $ du -ah /home/ee
     $ lsb_release -a
+    $ uname -a
+    $ cat /etc/lsb-release 
     $ lspci
     $ vmstat
     
