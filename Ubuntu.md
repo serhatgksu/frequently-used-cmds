@@ -134,7 +134,7 @@
     VBoxManage modifyhd win10.vdi --resize 120000
     
     compress
-    zip -P bitspace keystore.zip keystore/
+    zip -P bitspace -r keystore.zip keystore/
     sudo apt-get install p7zip-full
     7z -pbitspace x k.zip
 
