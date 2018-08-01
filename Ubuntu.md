@@ -142,3 +142,5 @@
     sudo adduser username
     sudo deluser username
     sudo visudo
+    sudo usermod -l newUsername oldUsername
+    sudo usermod -d /home/newHomeDir -m newUsername
