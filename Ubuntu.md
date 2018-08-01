@@ -141,3 +141,4 @@
     account
     sudo adduser username
     sudo deluser username
+    sudo visudo
