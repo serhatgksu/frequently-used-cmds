@@ -138,3 +138,6 @@
     sudo apt-get install p7zip-full
     7z -pbitspace x k.zip
 
+    account
+    sudo adduser username
+    sudo deluser username
