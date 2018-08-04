@@ -144,3 +144,7 @@
     sudo visudo
     sudo usermod -l newUsername oldUsername
     sudo usermod -d /home/newHomeDir -m newUsername
+    
+    port scan
+    nmap -p portnumber ipaddress
+    nmap -p 3306 google.com
