@@ -145,6 +145,9 @@
     sudo usermod -l newUsername oldUsername
     sudo usermod -d /home/newHomeDir -m newUsername
     
-    port scan
+    port
     nmap -p portnumber ipaddress
     nmap -p 3306 google.com
+    nmap -p 3306 localhost
+    sudo ufw allow 3306
+    telnet localhost 3306
