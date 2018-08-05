@@ -151,3 +151,6 @@
     nmap -p 3306 localhost
     sudo ufw allow 3306
     telnet localhost 3306
+    
+    packet
+    $ tshark -i br200 -f "host 2001:db8:81:2c::2"
