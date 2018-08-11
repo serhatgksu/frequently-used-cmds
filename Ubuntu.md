@@ -102,6 +102,8 @@
     $ cat /etc/lsb-release 
     $ lspci
     $ vmstat
+    $ hostname
+    $ hostnamectl
     
     chk&mount disk
     $ sudo fdisk -l
@@ -151,6 +153,15 @@
     nmap -p 3306 localhost
     sudo ufw allow 3306
     telnet localhost 3306
+    sudo lsof -i -P | grep -i LISTEN
+    ss -lptn
+    
+    real time port
+    netstat -anp | grep :80
+    netstat -nlp | grep :80
+    
+    ip2entityinfo
+    nslookup x.x.x.x
     
     packet
     $ tshark -i br200 -f "host 2001:db8:81:2c::2"
