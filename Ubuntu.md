@@ -165,3 +165,11 @@
     
     packet
     $ tshark -i br200 -f "host 2001:db8:81:2c::2"
+    
+    pkg handling
+    apt list
+    apt search
+    apt install
+    apt -f install
+    apt update
+    apt upgrade
