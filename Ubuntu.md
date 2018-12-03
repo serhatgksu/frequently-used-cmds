@@ -13,6 +13,7 @@
     content searching
     cat filename | grep keyword
     grep -R key_string
+    grep -nR TD
     #find . -name "*.py" | xargs cat | grep keyword
     
     systemctl status httpd.service
