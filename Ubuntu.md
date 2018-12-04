@@ -14,7 +14,7 @@
     cat filename | grep keyword
     grep -R key_string
     grep -nR TD
-    grep -nR 1.8.7 --include *.go
+    grep -nR 1.8.7 --include \*.go
     #find . -name "*.py" | xargs cat | grep keyword
     
     systemctl status httpd.service
