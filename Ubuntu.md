@@ -91,7 +91,7 @@
     checking info
     $ sudo apt install glances
     $ glances
-    $ glances
+    $ hardinfo
     $ lshw
     $ lscpu
     $ lsblk
