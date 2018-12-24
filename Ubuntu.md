@@ -7,6 +7,9 @@
     ps -e | grep ssh
     ps -ef | pgrep python
     
+    filter
+    ps -ef | awk '{print $1}'
+    
     searching
     find / -iname svn.so
     
