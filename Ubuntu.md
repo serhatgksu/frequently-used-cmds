@@ -7,8 +7,9 @@
     ps -e | grep ssh
     ps -ef | pgrep python
     
-    filter
+    filter, augment
     ps -ef | awk '{print $1}'
+    kill -9 $(ps -ef | grep geth |awk '{print $2}')
     
     searching
     find / -iname svn.so
