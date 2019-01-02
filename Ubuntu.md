@@ -179,3 +179,6 @@
     apt -f install
     apt update
     apt upgrade
+
+    add bashrc
+    echo "source /usr/share/virtualenvwrapper/virtualenvwrapper.sh" >> ~/.bashrc
