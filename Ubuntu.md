@@ -116,6 +116,7 @@
     $ lsblk
     $ mkdir /mnt/sdb
     $ sudo mount /dev/sdb5 /mnt/sdb/
+    $ sudo umount /dev/hda1
     
     port
     ping -p 80 google.com
